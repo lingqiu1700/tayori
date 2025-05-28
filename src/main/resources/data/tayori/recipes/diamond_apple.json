@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "A": { "item": "minecraft:apple" }
+  },
+  "result": {
+    "item": "tayori:diamond_apple",
+    "count": 1
+  }
+}
