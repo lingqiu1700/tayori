@@ -26,6 +26,8 @@ public final class DiamondApple {
 
     public static final Item ENCHANTED_QUARTZ_APPLE = register("enchanted_quartz_apple", new enchanted_quartz_apple(new Item.Settings().food(enchanted_quartz_apple.ENCHANTED_QUARTZ_APPLE_FOOD)));
 
+
+
     public static <T extends Item> T register(String path, T item) {
         return Registry.register(Registries.ITEM, Identifier.of("tayori", path), item);
     }
