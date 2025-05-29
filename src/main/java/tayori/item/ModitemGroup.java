@@ -25,6 +25,11 @@ public class ModitemGroup {
                         entries.add(DiamondApple.ENCHANTED_REDSTONE_APPLE);
                         entries.add(DiamondApple.QUARTZ_APPLE);
                         entries.add(DiamondApple.ENCHANTED_QUARTZ_APPLE);
+                        entries.add(DiamondApple.IRON_APPLE);
+                        entries.add(DiamondApple.ENCHANTED_IRON_APPLE);
+                        entries.add(DiamondApple.ENCHANTED_NETHERITE_APPLE);
+                        entries.add(DiamondApple.AMETHYST_SHARD_APPLE);
+                        entries.add(DiamondApple.ENCHANTED_AMETHYST_SHARD_APPLE);
                     }))
 
                     .build());

@@ -6,7 +6,9 @@ import tayori.item.DiamondApple
 import tayori.item.ModitemGroup
 
 object Tayori : ModInitializer {
-    private val logger = LoggerFactory.getLogger("tayori")
+	@JvmField
+	var MOD_ID: String = "tayori"
+	private val logger = LoggerFactory.getLogger("tayori")
 
 	override fun onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.

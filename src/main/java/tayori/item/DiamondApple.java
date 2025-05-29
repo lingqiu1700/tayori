@@ -26,6 +26,16 @@ public final class DiamondApple {
 
     public static final Item ENCHANTED_QUARTZ_APPLE = register("enchanted_quartz_apple", new enchanted_quartz_apple(new Item.Settings().food(enchanted_quartz_apple.ENCHANTED_QUARTZ_APPLE_FOOD)));
 
+    public static final Item IRON_APPLE = register("iron_apple", new iron_apple(new Item.Settings().food(iron_apple.IRON_APPLE_FOOD)));
+
+    public static final Item ENCHANTED_IRON_APPLE = register("enchanted_iron_apple", new enchanted_iron_apple(new Item.Settings().food(enchanted_iron_apple.ENCHANTED_IRON_APPLE_FOOD)));
+
+    public static final Item ENCHANTED_NETHERITE_APPLE = register("enchanted_netherite_apple", new enchanted_netherite_apple(new Item.Settings().food(enchanted_netherite_apple.ENCHANTED_NETHERITE_APPLE_FOOD)));
+
+    public static final Item AMETHYST_SHARD_APPLE = register("amethyst_shard_apple", new amethyst_shard_apple(new Item.Settings().food(amethyst_shard_apple.AMETHYST_SHARD_APPLE_FOOD)));
+
+    public static final Item ENCHANTED_AMETHYST_SHARD_APPLE = register("enchanted_amethyst_shard_apple", new enchanted_amethyst_shard_apple(new Item.Settings().food(enchanted_amethyst_shard_apple.ENCHANTED_AMETHYST_SHARD_APPLE_FOOD)));
+
     public static <T extends Item> T register(String path, T item) {
         return Registry.register(Registries.ITEM, Identifier.of("tayori", path), item);
     }

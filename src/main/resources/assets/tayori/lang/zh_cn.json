@@ -8,5 +8,10 @@
   "item.tayori.redstone_apple": "红石苹果",
     "item.tayori.enchanted_redstone_apple": "附魔红石苹果",
   "item.tayori.quartz_apple": "石英苹果",
-    "item.tayori.enchanted_quartz_apple": "附魔石英苹果"
+    "item.tayori.enchanted_quartz_apple": "附魔石英苹果",
+  "item.tayori.amethyst_shard_apple": "紫水晶碎片苹果",
+    "item.tayori.enchanted_amethyst_shard_apple": "附魔紫水晶碎片苹果",
+  "item.tayori.iron_apple": "铁苹果",
+    "item.tayori.enchanted_iron_apple": "附魔铁苹果",
+  "item.tayori.enchanted_netherite_apple": "附魔下界合金苹果"
 }
