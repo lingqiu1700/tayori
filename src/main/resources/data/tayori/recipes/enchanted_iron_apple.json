@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:iron_block" },
+    "A": { "item": "minecraft:apple" }
+  },
+  "result": {
+    "item": "tayori:enchanted_iron_apple",
+    "count": 1
+  }
+}

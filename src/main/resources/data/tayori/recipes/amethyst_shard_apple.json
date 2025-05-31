@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:amethyst_shard" },
+    "A": { "item": "minecraft:apple" }
+  },
+  "result": {
+    "item": "tayori:amethyst_shard_apple",
+    "count": 1
+  }
+}

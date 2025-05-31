@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:netherite_ingot" },
+    "A": { "item": "minecraft:apple" }
+  },
+  "result": {
+    "item": "tayori:enchanted_netherite_apple",
+    "count": 1
+  }
+}

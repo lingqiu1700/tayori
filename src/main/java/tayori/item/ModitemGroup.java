@@ -30,6 +30,10 @@ public class ModitemGroup {
                         entries.add(DiamondApple.ENCHANTED_NETHERITE_APPLE);
                         entries.add(DiamondApple.AMETHYST_SHARD_APPLE);
                         entries.add(DiamondApple.ENCHANTED_AMETHYST_SHARD_APPLE);
+                        entries.add(DiamondApple.ENCHANTED_DIAMOND_APPLE_HELMET);
+                        entries.add(DiamondApple.ENCHANTED_DIAMOND_APPLE_CHESTPLATE);
+                        entries.add(DiamondApple.ENCHANTED_DIAMOND_APPLE_LEGGINGS);
+                        entries.add(DiamondApple.ENCHANTED_DIAMOND_APPLE_BOOTS);
                     }))
 
                     .build());

@@ -1,9 +1,11 @@
 package tayori.item;
 
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import tayori.item.custom.ModArmoritem;
 
 public final class DiamondApple {
     private DiamondApple() {}
@@ -35,6 +37,14 @@ public final class DiamondApple {
     public static final Item AMETHYST_SHARD_APPLE = register("amethyst_shard_apple", new amethyst_shard_apple(new Item.Settings().food(amethyst_shard_apple.AMETHYST_SHARD_APPLE_FOOD)));
 
     public static final Item ENCHANTED_AMETHYST_SHARD_APPLE = register("enchanted_amethyst_shard_apple", new enchanted_amethyst_shard_apple(new Item.Settings().food(enchanted_amethyst_shard_apple.ENCHANTED_AMETHYST_SHARD_APPLE_FOOD)));
+
+    public static final Item ENCHANTED_DIAMOND_APPLE_HELMET = register("enchanted_diamond_apple_helmet", new ModArmoritem(ModArmor.DIAMOND_APPLE_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()));
+
+    public static final Item ENCHANTED_DIAMOND_APPLE_CHESTPLATE = register("enchanted_diamond_apple_chestplate", new ModArmoritem(ModArmor.DIAMOND_APPLE_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+
+    public static final Item ENCHANTED_DIAMOND_APPLE_LEGGINGS = register("enchanted_diamond_apple_leggings", new ModArmoritem(ModArmor.DIAMOND_APPLE_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()));
+
+    public static final Item ENCHANTED_DIAMOND_APPLE_BOOTS = register("enchanted_diamond_apple_boots", new ModArmoritem(ModArmor.DIAMOND_APPLE_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()));
 
     public static <T extends Item> T register(String path, T item) {
         return Registry.register(Registries.ITEM, Identifier.of("tayori", path), item);

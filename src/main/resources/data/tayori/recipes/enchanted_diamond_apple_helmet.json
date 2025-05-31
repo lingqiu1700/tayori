@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "   "
+  ],
+  "key": {
+    "A": { "item": "tayori:enchanted_diamond_apple" }
+  },
+  "result": {
+    "item": "tayori:enchanted_diamond_apple_helmet",
+    "count": 1
+  }
+}
